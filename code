@@ -1,1 +1,29 @@
+import math
+input("Hi. This program will calculate the orbital speed,
+ orbital period for one full revolution, the force of attraction, and gravity for any set of two celestial bodies you provide." )
 
+def input()
+print("Provide us the following information about a planet and its star it revolves:")
+mstar = float(input("Mass of the star"))
+checkint()
+rstar = float(input("Radius of star"))
+check(int)
+mplanet = float(input("Mass of planet"))
+check(int)
+rplanet = float(input("Radius of planet"))
+check(int)
+distance = float(input("Distance between the two celestial bodies"))
+check(int)
+
+def calc()
+radius = float(radiusstar + radiusplanet + distance)
+vorbital = float(2*3.14)
+vforbital = float(math.sqrt((radius * radius * radius*) / (6.67 * 10^-11 * massstar)))
+orbitalperiod = float(vorbitalspeed * v2orbitalspeed)
+orbitalperiodyears = float(orbitalperiod / 31536000)
+orbitalspeed = float((2 * 3.14 * radiu / s) / (orbitalperiod))
+forceofgravity = ((6.67 * 10^-11 * massstar * massplanet)(radius))
+
+print("Orbital speed:" + str(orbitalspeed))
+print("Orbital period: " + orbitalperiod + "and in years: " + str(orbitalperiodyears))
+print("Force of gravity/attraction between the two celestial bodies:" + str(forceofgravity))
